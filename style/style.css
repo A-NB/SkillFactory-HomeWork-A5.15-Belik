@@ -1,0 +1,41 @@
+/* body {
+  display: flex;
+  width: 1200px;
+} */
+
+label {
+  margin: 0 0 0 10px;
+}
+
+.input-text {
+  display: flex;
+  flex-direction: column;
+}  
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin: 0 10px 10px;
+  background-color: gainsboro;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+
+.fable {
+    margin-left: 10px;
+} 
+
+.buttons {
+  display: flex;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  margin: 10px 10px;
+  background-color: rgb(218, 241, 133);  
+}
